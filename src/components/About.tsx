@@ -15,7 +15,7 @@ export default function About() {
             <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-brand rounded-[2.5rem] z-0" />
             <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl aspect-[4/5] bg-surface">
               <img 
-                src="/vanessa.jpg"
+                src="/vanessa.jpeg"
                 alt="Vanessa Schmidt"
                 className="w-full h-full object-cover grayscale-[0.2]"
                 onError={(e) => {
