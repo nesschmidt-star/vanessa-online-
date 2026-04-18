@@ -13,11 +13,14 @@ export default function About() {
             className="relative"
           >
             <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-brand rounded-[2.5rem] z-0" />
-            <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl aspect-[4/5]">
+            <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl aspect-[4/5] bg-surface">
               <img 
-                src="https://images.unsplash.com/photo-1544717297-fa95b3ee51f3?q=80&w=2070&auto=format&fit=crop"
+                src="/vanessa.jpg"
                 alt="Vanessa Schmidt"
                 className="w-full h-full object-cover grayscale-[0.2]"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).src = 'https://images.unsplash.com/photo-1544717297-fa95b3ee51f3?q=80&w=2070&auto=format&fit=crop';
+                }}
                 referrerPolicy="no-referrer"
               />
             </div>
