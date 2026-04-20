@@ -2,6 +2,7 @@ import { motion, useScroll, useSpring } from 'motion/react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Mentoria from './components/Mentoria';
 import OnlineWorkflow from './components/OnlineWorkflow';
 import SportsFocus from './components/SportsFocus';
 import Plans from './components/Plans';
@@ -38,6 +39,7 @@ export default function App() {
           viewport={{ once: true }}
         >
           <About />
+          <Mentoria />
           <OnlineWorkflow />
           <SportsFocus />
           <Testimonials />

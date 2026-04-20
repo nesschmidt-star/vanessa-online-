@@ -21,6 +21,7 @@ export default function Navbar() {
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8">
           <a href="#about" className="text-sm font-medium text-muted hover:text-brand transition-colors">Sobre</a>
+          <a href="#mentoria" className="text-sm font-medium text-brand font-bold hover:text-brand-dark transition-colors">Mentoria</a>
           <a href="#online" className="text-sm font-medium text-muted hover:text-brand transition-colors">Método Sllim</a>
           <a href="#specialties" className="text-sm font-medium text-muted hover:text-brand transition-colors">Diferenciais</a>
           <a href="#testimonials" className="text-sm font-medium text-muted hover:text-brand transition-colors">Resultados</a>
@@ -52,6 +53,7 @@ export default function Navbar() {
           className="md:hidden bg-white border-b border-brand-dark/5 p-6 space-y-4"
         >
           <a href="#about" onClick={() => setIsOpen(false)} className="block text-lg font-bold">Sobre</a>
+          <a href="#mentoria" onClick={() => setIsOpen(false)} className="block text-lg font-bold text-brand">Mentoria</a>
           <a href="#specialties" onClick={() => setIsOpen(false)} className="block text-lg font-bold">Especialidades</a>
           <a href="#online" onClick={() => setIsOpen(false)} className="block text-lg font-bold">Como funciona</a>
           <a href="#flexslim" onClick={() => setIsOpen(false)} className="block text-lg font-bold text-brand">FlexSlim</a>
